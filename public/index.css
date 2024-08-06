@@ -1,0 +1,122 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #464646;
+  font-size: 20px;
+  background-color: rgb(249, 255, 250);
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Enable smooth scrolling behavior */
+}
+
+a {
+  text-decoration: underline;
+}
+
+.button1, .button2, .button3 {
+  font-family: unset;
+  height: 40px;
+  border-radius: 40px;
+  background-color: white;
+  border: 0;
+  padding: 0 20px;
+}
+
+.button2, .button3 {
+  background: var(--Bluwigo, rgb(52, 54, 134));
+  color: white;
+}
+
+.button3 {
+  height: 60px;
+  font-size: 20px;
+  padding: 0 50px;
+}
+
+header {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 140px;
+}
+
+.main {
+  text-align: center;
+}
+.main .p1 {
+  font-size: 23px;
+  text-transform: uppercase;
+}
+.main .p2 {
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  width: 75%;
+  margin: 50px auto;
+}
+.main .p, .main .p6, .main .p7, .main .p8, .main .p9, .main .p10, .main .p11, .main .p12, .main .p13, .main .p14, .main .p15, .main .p16, .main .p17, .main .p18, .main .p19, .main .p20, .main .p21, .main .p22, .main .p23, .main .p24, .main .p5 {
+  margin: auto;
+  width: 70%;
+  font-size: 30px;
+}
+.main .p4 {
+  margin: auto;
+  margin-top: 300px;
+  width: 70%;
+  font-size: 30px;
+}
+.main .p5 {
+  margin-top: 50px;
+}
+.main .p6, .main .p7, .main .p8, .main .p9, .main .p10, .main .p11, .main .p12, .main .p13, .main .p14, .main .p15, .main .p16, .main .p17, .main .p18, .main .p19, .main .p20, .main .p21, .main .p22, .main .p23, .main .p24 {
+  margin: 60px auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.highlight {
+  color: red;
+}
+
+.offer {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 4px solid #007BFF;
+}
+
+.cta {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta:hover {
+  background-color: #218838;
+}/*# sourceMappingURL=index.css.map */

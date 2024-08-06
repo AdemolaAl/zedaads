@@ -1,0 +1,11 @@
+{
+  "name": "zedaads",
+  "version": "1.0.0",
+  "description": "Ads ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ademola Al-ameen",
+  "license": "ISC"
+}
